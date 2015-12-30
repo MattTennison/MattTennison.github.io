@@ -1,0 +1,17 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,700);
+body { background-color: #222; color: #FEFEFE; padding: 15% 5%; font-family: "Oswald", sans-serif; }
+
+#container { width: 100%; height: 150px; position: relative; }
+
+#nameText { font-size: 4.5em; text-align: left; width: 50%; text-transform: uppercase; position: absolute; bottom: 0px; left: 0px; font-weight: 700; }
+#nameText .subText { font-size: 0.2em; color: #ABABAB; text-transform: lowercase; font-weight: 300; }
+
+#linkText { font-size: 1em; text-align: right; width: 30%; position: absolute; bottom: 0px; right: 0px; font-weight: 300; }
+#linkText a { transition: color 0.2s; }
+
+a { color: inherit; text-decoration: none; transition: color 0.5s; }
+
+a:hover { color: red; }
+
+/*# sourceMappingURL=style.css.map */
