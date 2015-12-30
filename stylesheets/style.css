@@ -14,4 +14,10 @@ a { color: inherit; text-decoration: none; transition: color 0.5s; }
 
 a:hover { color: red; }
 
+@media (max-width: 600px) { body { padding: 10% 0; }
+  #linkText, #nameText { width: 100%; position: relative; text-align: center; }
+  #linkText { padding-top: 50px; }
+  #linkText li { width: 100%; padding: 10px 0px; font-size: 1.5em; }
+  .container { height: auto; } }
+
 /*# sourceMappingURL=style.css.map */
