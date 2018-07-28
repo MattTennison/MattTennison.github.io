@@ -1,26 +1,24 @@
 @import url(../css/reset.css);
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,700);
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: #f9f2f0;
-  color: #1e333f; }
+.container {
+  max-width: 500pt;
+  margin: 0 auto; }
 
-@media (max-device-width: 600pt) {
-  body {
-    font-size: 1.5em; } }
+.content {
+  padding: 10pt 0; }
 
-h1 {
-  font-size: 3em; }
+.content--dark {
+  background-color: #1e333f;
+  color: #f9f2f0; }
 
-h2 {
-  font-size: 2em; }
-
-h3 {
-  font-size: 1.5em; }
-
-.top-highlight {
+.content--light {
   background-color: #ef8460;
-  height: 10pt; }
+  color: #f9f2f0; }
+
+.with-vertical-spacing * {
+  margin-top: 10pt; }
+  .with-vertical-spacing *:first-child {
+    margin-top: 0; }
 
 .intro {
   padding: 0 10pt; }
@@ -51,3 +49,40 @@ h3 {
     color: #1e333f;
     border: 2px solid #ef8460;
     border-radius: 5pt; }
+
+.top-highlight {
+  background-color: #ef8460;
+  height: 10pt; }
+
+.top-highlight--with-bottom-margin {
+  margin-bottom: 10pt; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ef8460;
+  color: #1e333f; }
+
+@media (max-device-width: 600pt) {
+  body {
+    font-size: 1.5em; } }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 1.5em; }
+
+h4 {
+  font-size: 1.25em; }
+
+p {
+  line-height: 1.4; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
