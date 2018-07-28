@@ -1,0 +1,79 @@
+@import "../css/reset.css";
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,700);
+
+$primary-color: rgb(239, 132, 96);
+$primary-text-color: rgb(249, 242, 240);
+$secondary-color: rgb(30, 51, 63);
+$secondary-text-color: rgb(184, 214, 197);
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: $primary-text-color;
+    color: $secondary-color;
+}
+
+@media(max-device-width: 600pt) {
+    body {
+        font-size: 1.5em;
+    }
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.top-highlight {
+    background-color: $primary-color;
+    height: 10pt;
+}
+
+%inner-padding {
+    padding: 0 10pt;
+}
+
+.intro {
+    @extend %inner-padding;
+    height: calc(100vh - 10pt);
+    background: $primary-text-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    * {
+        margin: 5pt 0;
+    }
+
+    :first-child {
+        margin-top: 0;
+    }
+
+    :last-child {
+        margin-bottom: 0;
+    }
+
+    p {
+        opacity: 0.8;
+        font-style: italic;
+    }
+
+    button {
+        display: inline-block;
+        align-self: center;
+        padding: 10pt;
+        background-color: white;
+        font-size: 1.1em;
+        outline: none;
+        color: $secondary-color;
+        border: 2px solid $primary-color;
+        border-radius: 5pt;
+    }
+}
