@@ -1,0 +1,15 @@
+@import "../values/colours";
+
+.content {
+  padding: 10pt 0;
+}
+
+.content--dark {
+  background-color: $secondary-color;
+  color: $primary-text-color;
+}
+
+.content--light {
+  background-color: $primary-color;
+  color: $primary-text-color;
+}

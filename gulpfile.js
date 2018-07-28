@@ -12,13 +12,13 @@ gulp.task('browser-sync', ['sass'], function() {
 });
 
 gulp.task('sass', function () {
-    return gulp.src("scss/*.scss")
+    return gulp.src("./scss/**/*.scss")
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./css'))
         .pipe(bs.reload({stream: true}));
 });
 
 gulp.task('watch', ['browser-sync'], function () {
-    gulp.watch("./scss/*.scss", ['sass']);
+    gulp.watch("./scss/**/*.scss", ['sass']);
     gulp.watch("*.html").on('change', bs.reload);
 });
