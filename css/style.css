@@ -36,6 +36,10 @@
   opacity: 0.5;
   fill: white; }
 
+@media (max-width: 300pt) {
+  .icon {
+    width: 25vw; } }
+
 .icon--rotate-left {
   transform: rotate(-15deg); }
 
