@@ -14,7 +14,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "cb:74:40:31:fc:3f:6f:67:76:b0:bc:2c:3f:a5:12:4d"
+            - "47:98:c8:6c:71:1d:48:ba:25:d2:7d:7f:bc:19:b9:3f"
       - checkout
       - restore_cache:
           keys:
