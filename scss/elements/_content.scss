@@ -13,3 +13,14 @@
   background-color: $primary-color;
   color: $primary-text-color;
 }
+
+.content--columns {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.content--centered {
+  margin: 0 auto;
+}

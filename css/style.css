@@ -1,7 +1,9 @@
 @import url(../css/reset.css);
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,700);
 .container {
-  max-width: 500pt;
+  max-width: 500pt; }
+
+.container--centered {
   margin: 0 auto; }
 
 .content {
@@ -15,10 +17,37 @@
   background-color: #ef8460;
   color: #f9f2f0; }
 
+.content--columns {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center; }
+
+.content--centered {
+  margin: 0 auto; }
+
 .with-vertical-spacing * {
   margin-top: 10pt; }
   .with-vertical-spacing *:first-child {
     margin-top: 0; }
+
+.icon {
+  width: 60pt;
+  margin: 0 10pt;
+  opacity: 0.5;
+  fill: white; }
+
+.icon--rotate-left {
+  transform: rotate(-15deg); }
+
+.icon--rotate-right {
+  transform: rotate(15deg); }
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center; }
 
 .intro {
   padding: 0 10pt; }
@@ -49,6 +78,17 @@
     color: #1e333f;
     border: 2px solid #ef8460;
     border-radius: 5pt; }
+  .intro::after {
+    content: "";
+    background: url("../assets/intro_mac.jpg") center;
+    background-size: 100%;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; }
 
 .top-highlight {
   background-color: #ef8460;

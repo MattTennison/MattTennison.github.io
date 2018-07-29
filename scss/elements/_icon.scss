@@ -1,0 +1,14 @@
+.icon {
+  width: 60pt;
+  margin: 0 10pt;
+  opacity: 0.5;
+  fill: white;
+}
+
+.icon--rotate-left {
+  transform: rotate(-15deg);
+}
+
+.icon--rotate-right {
+  transform: rotate(15deg);
+}
