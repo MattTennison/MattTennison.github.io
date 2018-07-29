@@ -1,5 +1,4 @@
 @import url(../css/reset.css);
-@import url(https://fonts.googleapis.com/css?family=Oswald:300,700);
 .container {
   max-width: 500pt; }
 
@@ -7,7 +6,7 @@
   margin: 0 auto; }
 
 .content {
-  padding: 10pt 0; }
+  padding: 10pt; }
 
 .content--dark {
   background-color: #1e333f;
@@ -78,17 +77,6 @@
     color: #1e333f;
     border: 2px solid #ef8460;
     border-radius: 5pt; }
-  .intro::after {
-    content: "";
-    background: url("../assets/intro_mac.jpg") center;
-    background-size: 100%;
-    opacity: 0.2;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1; }
 
 .top-highlight {
   background-color: #ef8460;
@@ -101,10 +89,6 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ef8460;
   color: #1e333f; }
-
-@media (max-device-width: 600pt) {
-  body {
-    font-size: 1.5em; } }
 
 h1 {
   font-size: 3em; }
@@ -126,3 +110,7 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+  a:visited {
+    text-decoration: none; }
+  a:active {
+    text-decoration: none; }
