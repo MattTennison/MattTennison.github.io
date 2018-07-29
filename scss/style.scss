@@ -8,12 +8,6 @@ body {
     color: $secondary-color;
 }
 
-@media(max-device-width: 600pt) {
-    body {
-        font-size: 1.5em;
-    }
-}
-
 h1 {
     font-size: 3em;
 }
