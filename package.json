@@ -1,0 +1,31 @@
+{
+  "name": "matttennison.com",
+  "version": "2.0.0",
+  "description": "A website for Matt Tennison's front-end development",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattTennison/MattTennison.github.io.git"
+  },
+  "keywords": [
+    "gulp",
+    "static",
+    "sass",
+    "html"
+  ],
+  "author": "Matt Tennison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattTennison/MattTennison.github.io/issues"
+  },
+  "homepage": "https://github.com/MattTennison/MattTennison.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
