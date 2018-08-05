@@ -82,6 +82,10 @@
     border: 2px solid #ef8460;
     border-radius: 5pt; }
 
+.portfolio-item__developed-with {
+  font-size: 0.8em;
+  font-style: italic; }
+
 .top-highlight {
   background-color: #ef8460;
   height: 10pt; }
