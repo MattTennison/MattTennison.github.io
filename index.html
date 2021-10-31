@@ -23,8 +23,12 @@
   <body>
     <main>
       <picture class="c-profile-photo">
-        <source type="image/webp" srcset="./assets/me.webp" />
-        <img src="./assets/me.jpeg" alt="Photo of Matt Tennison" />
+        <source
+          type="image/webp"
+          srcset="./assets/me.webp, ./assets/me@2x.webp 2x ./assets/me@3x.webp 3x"
+        />
+        <img srcset="./assets/me.jpeg, ./assets/me@2x.jpeg 2x
+        ./assets/me@3x.jpeg 3x alt="Photo of Matt Tennison" />
       </picture>
       <h1>Hi, I'm <span class="highlight">Matt Tennison</span></h1>
       <p>
