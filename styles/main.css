@@ -46,13 +46,17 @@ main h1 {
   font-weight: 700;
 }
 
-.c-profile-photo {
+.c-profile-photo > img,
+.c-profile-photo > source {
   max-width: 100%;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+}
+
+.c-profile-photo {
   align-self: center;
 }
 

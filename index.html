@@ -22,11 +22,10 @@
 
   <body>
     <main>
-      <img
-        src="./assets/me.jpeg"
-        alt="Photo of Matt Tennison"
-        class="c-profile-photo"
-      />
+      <picture class="c-profile-photo">
+        <source type="image/webp" srcset="./assets/me.webp" />
+        <img src="./assets/me.jpeg" alt="Photo of Matt Tennison" />
+      </picture>
       <h1>Hi, I'm <span class="highlight">Matt Tennison</span></h1>
       <p>
         Full stack software engineer with extensive React, NodeJS and TDD
